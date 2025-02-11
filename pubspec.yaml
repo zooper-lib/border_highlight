@@ -1,0 +1,28 @@
+name: border_highlight
+description: "A new Flutter package project."
+version: 1.0.0
+homepage: https://www.zooper.dev/
+repository: https://github.com/zooper-lib/border_highlight
+topics:
+  - border
+  - highlight
+  - shader
+funding:
+  - https://buymeacoffee.com/zooperlib
+
+environment:
+  sdk: ^3.6.1
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  shaders:
+    - shaders/border_highlight.frag
