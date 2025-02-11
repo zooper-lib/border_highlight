@@ -26,7 +26,7 @@ Add `border_highlight` to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  border_highlight: ^1.0.0
+  border_highlight: latest
 ```
 
 ## Usage

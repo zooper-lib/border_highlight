@@ -32,7 +32,9 @@ class _InteractiveShaderBorderState extends State<InteractiveShaderBorder> {
   @override
   void initState() {
     super.initState();
-    FragmentProgram.fromAsset('shaders/border_highlight.frag').then((prog) {
+    FragmentProgram.fromAsset(
+            'packages/border_highlight/shaders/border_highlight.frag')
+        .then((prog) {
       setState(() {
         program = prog;
       });
