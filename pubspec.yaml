@@ -1,5 +1,5 @@
 name: border_highlight
-description: "A new Flutter package project."
+description: "A shader for a Containers border"
 version: 1.0.0
 homepage: https://www.zooper.dev/
 repository: https://github.com/zooper-lib/border_highlight
